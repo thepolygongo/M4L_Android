@@ -19,30 +19,33 @@
             android:layout_height="match_parent"
             tools:context="com.example.worker.m4l.MapsActivity" />
         <LinearLayout
+            android:id="@+id/buttonSetting"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/rect_radius"
             android:layout_margin="10dp"
             >
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="20dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
                 android:src="@drawable/icon_setting"
                 android:layout_marginHorizontal="10dp"
                 android:layout_marginVertical="5dp"
                 />
             <TextView
+                android:id="@+id/textViewDate"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:text="Fri 02 Nov"
                 android:layout_marginRight="20dp"
                 android:textColor="#fff"
+                android:textSize="@dimen/text_map_activity"
                 />
         </LinearLayout>
         <ImageView
-            android:layout_width="150dp"
-            android:layout_height="70dp"
+            android:layout_width="170dp"
+            android:layout_height="78dp"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_marginTop="0dp"
@@ -53,7 +56,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:padding="20dp"
+        android:padding="10dp"
         android:background="#eee"
         >
         <LinearLayout
@@ -66,28 +69,32 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Move Minutes"
-                android:textSize="20dp"
+                android:textSize="@dimen/text_map_activity"
                 android:textAlignment="center"
                 android:textColor="#4748a2"
                 />
             <TextView
+                android:id="@+id/textMove1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="46/43"
-                android:textSize="20dp"
+                android:text="46 / 43"
+                android:textSize="@dimen/text_map_activity"
                 android:textAlignment="center"
                 android:textColor="#4647a1"
                 android:background="#fff"
+                android:padding="5dp"
                 android:layout_margin="1dp"
                 />
             <TextView
+                android:id="@+id/textMove2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="274/6"
-                android:textSize="20dp"
+                android:text="274 / 6"
+                android:textSize="@dimen/text_map_activity"
                 android:textAlignment="center"
                 android:textColor="#4647a1"
                 android:background="#fff"
+                android:padding="5dp"
                 android:layout_margin="1dp"
                 />
         </LinearLayout>
@@ -101,31 +108,36 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Active Minutes"
-                android:textSize="20dp"
+                android:textSize="@dimen/text_map_activity"
                 android:textAlignment="center"
                 android:textColor="#4ba15a"
                 />
             <TextView
+                android:id="@+id/textActive1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="46/43"
-                android:textSize="20dp"
+                android:text="46 / 43"
+                android:textSize="@dimen/text_map_activity"
                 android:textAlignment="center"
                 android:textColor="#4ba15a"
                 android:background="#fff"
+                android:padding="5dp"
                 android:layout_margin="1dp"
                 />
             <TextView
+                android:id="@+id/textActive2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="274/6"
-                android:textSize="20dp"
+                android:text="274 / 6"
+                android:textSize="@dimen/text_map_activity"
                 android:textAlignment="center"
                 android:textColor="#4ba15a"
                 android:background="#fff"
+                android:padding="5dp"
                 android:layout_margin="1dp"
                 />
             <Button
+                android:id="@+id/buttonAdd"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_marginTop="10dp"
